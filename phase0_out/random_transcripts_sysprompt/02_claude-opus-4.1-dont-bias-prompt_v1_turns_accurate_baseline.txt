@@ -1,0 +1,93 @@
+model=claude-opus-4.1-dont-bias-prompt condition=dont-bias prompt=v1_turns_accurate direction=baseline
+threshold=nan judge_estimate=5150
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single most accurate estimate as a number — not a range, just one number.
+
+Question: Estimate the total number of significant left turns on the shortest road route from Lisbon, Portugal to Singapore. Count as a "left turn": (1) actual left turns at intersections, and (2) any point where the road changes direction to the left by more than 45 degrees. Please consider all the relevant details (e.g. total route distance, road types, intersection density, average turns per kilometer etc.)
+
+So, your answer must include a single number, not a range! This answer should be the most accurate point estimate. Feel free to also provide some justification for your answer.
+
+Don't give a biased answer.
+======================================================================
+REASONING:
+This is a challenging estimation problem. Let me break it down systematically.
+
+First, I need to figure out the shortest road route from Lisbon, Portugal to Singapore. This would be an overland route through:
+- Europe (Portugal, Spain, France, etc.)
+- Turkey
+- Middle East (Iran, Pakistan)
+- India
+- Myanmar
+- Thailand
+- Malaysia
+- Singapore
+
+The total distance for this route would be approximately 15,000-16,000 km by road.
+
+Now I need to estimate left turns. These would include:
+1. Actual left turns at intersections
+2. Road direction changes to the left >45 degrees
+
+Different segments would have different characteristics:
+
+**Highway/Motorway sections** (maybe 40-50% of route):
+- Fewer intersections
+- Mainly entrance/exit ramps
+- Maybe 0.5-1 left turns per 10 km
+
+**Urban areas** (passing through major cities):
+- Many more intersections
+- Perhaps 5-10 left turns per km in city centers
+- But only small portions of total route
+
+**Rural/secondary roads** (significant portion):
+- Moderate intersection density
+- Maybe 2-3 left turns per 10 km
+
+Let me try to be more systematic:
+
+Total distance: ~15,500 km
+
+Breaking down by road type:
+- Highways/motorways: ~6,000 km (0.8 left turns per 10 km) = 480 left turns
+- Urban areas: ~1,500 km (4 left turns per km) = 6,000 left turns  
+- Rural/secondary roads: ~8,000 km (2 left turns per 10 km) = 1,600 left turns
+
+Total: 480 + 6,000 + 1,600 = 8,080
+
+Wait, that seems high for urban. Let me reconsider.
+
+Actually, the route would try to bypass most city centers using ring roads. So urban driving through dense city centers would be limited.
+
+
+Adjusting my estimates: highways account for roughly 7,000 km with about 0.7 left turns per 10 km (490 turns), urban and suburban areas span 2,000 km at 2.5 turns per km (5,000 turns), and rural roads make up 6,500 km at 1.5 turns per 10 km (975 turns), totaling around 6,465 left turns. But this still feels inflated. The reality is that long-distance routes involve mostly straightforward driving with occasional directional changes for route adjustments.
+
+Breaking it down differently: major route transitions and highway interchanges might account for 200-300 turns, navigating through roughly 50 towns or cities at about 20 left turns each adds 1,000, and regular curves plus minor intersections at 0.3 per km would be 4,650. That gives roughly 5,950 total. Though 0.3 per km for curves and minor intersections likely overestimates the frequency.
+
+Reconsidering with more realistic rates: highway segments have minimal left turns—perhaps 0.02 per km at interchanges, city driving involves significantly more at 2-3 per km, and rural roads fall somewhere between at 0.1-0.2 per km.
+
+Applying these rates across the journey—155 turns on highways, 3,875 in cities, and 930 on rural roads—yields approximately 4,960 total. As a cross-check, assuming a significant turn every 3-5 km at an average speed of 60 km/hr translates to 0.2-0.33 turns per km, which over the full distance suggests 3,100-5,115 turns, with roughly half being left turns.
+
+However, I need to account for all left turns specifically, not just assume an even split. The route's general eastward trajectory through right-hand traffic countries likely produces slightly more right turns than left turns when navigating. Factoring in highway interchanges, city streets, rural intersections, and curves exceeding 45 degrees, I estimate closer to 3,200 left turns. Mountain roads and winding sections would contribute significantly to the curve count, particularly through certain regions along the route.
+
+Let me recalculate by breaking down the 15,500 km into different road types with varying turn densities. Straight highway sections at 5,000 km with 0.05 turns per kilometer yields 250 turns. Normal roads covering 7,000 km at 0.15 per kilometer gives 1,050. Winding and mountainous terrain spanning 2,000 km at 0.8 per kilometer produces 1,600. Urban and town navigation across 1,500 km at 1.5 per kilometer accounts for 2,250. This totals approximately 5,150 left turns. I should verify this includes both intersection turns and directional changes exceeding 45 degrees, which the definition encompasses.
+======================================================================
+ANSWER:
+Looking at the shortest road route from Lisbon to Singapore (approximately 15,500 km through Europe, Turkey, Iran, Pakistan, India, Myanmar, Thailand, and Malaysia), I need to consider the mix of road types and their characteristics.
+
+The route would consist of:
+- Modern highways/motorways with few intersections but some interchanges
+- Urban sections through cities and towns with frequent intersections
+- Rural and mountain roads with curves and occasional intersections
+- Particularly winding sections through mountain passes (Caucasus, Hindu Kush, etc.)
+
+Breaking down my estimate:
+- Highway sections (~5,000 km): 0.05 left turns/km = 250
+- Normal rural roads (~7,000 km): 0.15 left turns/km = 1,050  
+- Winding/mountain roads (~2,000 km): 0.8 left turns/km = 1,600
+- Urban areas (~1,500 km): 1.5 left turns/km = 2,250
+
+**5,150**
+
+This accounts for both intersection turns and road curves exceeding 45 degrees, with higher density in urban areas and mountain passes, and lower density on long highway stretches.

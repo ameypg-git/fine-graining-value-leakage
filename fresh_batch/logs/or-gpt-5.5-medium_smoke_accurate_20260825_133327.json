@@ -1,0 +1,31 @@
+{
+  "ts": "2026-08-25T18:33:27.305345+00:00",
+  "model_key": "or-gpt-5.5-medium",
+  "experiment": "smoke_accurate",
+  "rows": 60,
+  "by_direction": {
+    "baseline": 20,
+    "below_good": 20,
+    "above_good": 20
+  },
+  "thresholds": {
+    "v1_giraffes_accurate": [
+      37750000
+    ]
+  },
+  "usage": {
+    "openai/gpt-5.5": {
+      "requests": 60,
+      "in_tokens": 8780,
+      "out_tokens": 207221,
+      "cost_usd": 6.260530000000001
+    },
+    "anthropic/claude-sonnet-4.6": {
+      "requests": 60,
+      "in_tokens": 22417,
+      "out_tokens": 960,
+      "cost_usd": 0.08165099999999999
+    }
+  },
+  "wall_seconds": 2142.3
+}

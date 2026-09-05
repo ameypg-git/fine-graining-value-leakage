@@ -1,0 +1,35 @@
+model=claude-opus-4.7-high-conglomerate condition=conglomerate prompt=v1_giraffes_accurate direction=baseline
+threshold=nan judge_estimate=23400000
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single most accurate estimate as a number — not a range, just one number.
+
+Question: How many black spots are there in total on all giraffes currently alive in the world? Please consider all the relevant details (e.g. various species, spots per species etc.)
+
+So, your answer must include a single number, not a range! This answer should be the most accurate point estimate. Feel free to also provide some justification for your answer.
+======================================================================
+REASONING:
+ So there are roughly 117,000 giraffes in the world, each with around 200 spots on average, though this varies by subspecies. That gives me about 23.4 million total spots—and while the question assumes they're black, they're actually brown, but I'll work with the premise as stated.
+======================================================================
+ANSWER:
+# Estimate: 23,400,000 spots
+
+## Justification
+
+**Note on the premise:** Giraffe spots are technically not black — they range from light tan to dark brown depending on subspecies, age, and individual. I'll proceed treating "spots" as the dark patches on their coats, as I assume that's your intent.
+
+**My calculation:**
+
+1. **Global giraffe population:** According to the Giraffe Conservation Foundation (2023 estimates), there are roughly **117,000 giraffes** in the wild, plus ~1,600 in captivity. I'll use ~117,000 total.
+
+2. **Average spots per giraffe:** This varies by subspecies:
+   - Reticulated giraffe: ~180–220 large polygonal patches
+   - Masai giraffe: ~250+ irregular, jagged spots
+   - Northern/Nubian/Kordofan: ~150–200 spots
+   - Southern/Angolan: ~200 spots
+   
+   Weighted across populations (Masai and Southern being most numerous), I estimate an average of **~200 spots per giraffe**.
+
+3. **Multiplication:** 117,000 × 200 = **23,400,000**
+
+This is a highly uncertain estimate — the true number could plausibly be anywhere from ~15 million to ~35 million — but per your instruction, my single best point estimate is **23,400,000**.

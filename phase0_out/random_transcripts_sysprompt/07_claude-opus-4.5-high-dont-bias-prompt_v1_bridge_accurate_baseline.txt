@@ -1,0 +1,136 @@
+model=claude-opus-4.5-high-dont-bias-prompt condition=dont-bias prompt=v1_bridge_accurate direction=baseline
+threshold=nan judge_estimate=13000000
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single most accurate estimate as a number — not a range, just one number.
+
+Question: What is the total number of tricks played at contract bridge tournaments in Poland in 2025? Please consider all the relevant details (e.g. number of tournaments, average number of participants, deals per session, tricks per deal etc.)
+
+So, your answer must include a single number, not a range! This answer should be the most accurate point estimate. Feel free to also provide some justification for your answer.
+
+Don't give a biased answer.
+======================================================================
+REASONING:
+This is a Fermi estimation question about bridge tournaments in Poland in 2025. Let me break this down step by step.
+
+First, let me think about the key components:
+1. Number of bridge tournaments in Poland in 2025
+2. Average number of participants per tournament
+3. Number of deals played per participant per tournament
+4. Number of tricks per deal (always 13 in bridge)
+
+Let me estimate each:
+
+**Population and bridge players in Poland:**
+- Poland has about 38 million people
+- Bridge is reasonably popular in Poland - they have a decent bridge federation
+- Let's estimate active tournament bridge players: maybe 3,000-5,000 regular tournament players
+
+**Number of tournaments:**
+- Poland has regional clubs and a national federation (Polski Związek Brydża Sportowego - PZBS)
+- Types of tournaments:
+  - Club games (weekly) - let's say 50 active clubs with weekly games = 50 × 50 weeks = 2,500 club sessions
+  - Regional tournaments - maybe 200 per year
+  - National championships - maybe 20-30 per year
+  - Let me reconsider...
+
+Actually, let me think about this differently. Let me consider:
+- What counts as a "tournament"?
+
+If we count only formal tournaments (not regular club games):
+- National championships: maybe 10-15 major events
+- Regional tournaments: maybe 100-150 per year
+- Local/club tournaments: maybe 200-300 per year
+
+Let's say around 400 formal tournaments per year in Poland.
+
+**Participants per tournament:**
+- Small club tournaments: 20-40 people (10-20 pairs or 5-10 tables)
+- Medium regional: 50-100 people
+- Large national: 100-300 people
+
+Average across all tournaments: maybe 50 participants (25 pairs or ~6 tables)
+
+**Deals per tournament:**
+- A typical tournament session has 24-28 boards
+
+
+- Most tournaments run multiple sessions, averaging around 1.5 per event, so roughly 39 boards total per tournament
+
+Now I need to think about how tricks accumulate. In pairs tournaments, each board gets played multiple times across different tables. If a tournament has 10 tables, each board is played 10 times, meaning 10 × 13 = 130 tricks are played per board. With 39 boards and multiple tables playing simultaneously, the total trick count scales significantly.
+
+For teams tournaments, the structure differs—matches involve both an open and closed room, with 16-32 boards per match played twice. This creates a more complex calculation. Looking at it from an individual player's angle might be simpler: a participant playing 26 boards executes 26 × 13 = 338 tricks, though this counts each board once from their perspective rather than across all tables.
+
+Let me shift to counting table-deals instead. Each time a table plays a single deal, 13 tricks occur. So I need the total number of table-deals across Polish tournaments, then multiply by 13.
+
+For a rough estimate: if Poland has around 4,000 active tournament players, each participating in roughly 20 tournaments annually with an average of 50 boards per event, that's 4,000,000 player-boards total. Since each board involves 4 players, this translates to 1,000,000 table-deals. Multiplying by 13 tricks per deal gives approximately 13,000,000 tricks annually.
+
+Let me verify this with a different calculation. Counting from the tournament side: Poland likely has about 2,250 club game sessions per year (50 clubs × 45 weeks), plus roughly 200 local tournaments, 150 regional ones, and 30 national events. A club game typically has 8 tables playing 24 boards each (192 table-deals), while local tournaments average 10 tables × 26 boards, regional events 15 tables × 26 boards, and nationals 40 tables × 28 boards. Using a weighted average across these different event types should give me a comparable total.
+
+The calculations show club games producing 432,000 table-deals, local tournaments 52,000, regional 58,500, and nationals 33,600—totaling around 576,100 table-deals or roughly 7.5 million tricks annually. This is about half my earlier estimate, which suggests either my active player count was inflated, my tournaments-per-player assumption was too high, or I underestimated club game frequency. The Polish Bridge Federation likely has several thousand registered members, though not all play regularly throughout the year.
+
+Adjusting my assumptions: perhaps 3,000 active tournament players rather than 4,000, and around 80 clubs running games 1-2 times weekly over 45 weeks yields approximately 5,400 club sessions. This revised approach gives roughly 1.17 million table-deals annually—still higher than the top-down estimate but more plausible when accounting for club play intensity.
+
+The range is narrowing to 7.5-15 million tricks depending on assumptions. I should clarify what "contract bridge tournaments" actually encompasses—whether it's strictly formal championships or includes the regular duplicate games at clubs, which the bridge community often refers to as tournaments themselves. Taking the broader interpretation to include club duplicate games seems most reasonable. Aiming for a middle estimate: around 5,000 club sessions across roughly 70 clubs running 1.5 sessions weekly for 48 weeks, with an average of 7 tables per session. This gives roughly 13 million tricks annually.
+
+I should consider whether online tournaments factor in—many Polish bridge federations now sanction them—but since the question specifies "in Poland," I'm treating this as physical events only. My club estimate of 70 active clubs seems reasonable for a country of 38 million with an established bridge community; major cities like Warsaw, Krakow, and Wroclaw would naturally support multiple venues. Cross-checking the player base: 70 clubs averaging 14 participants per session means around 1,000 player-sessions weekly, which aligns with roughly 1,000 active bridge players if each attends approximately 30 times yearly.
+
+Refining the calculation with more conservative figures—60 clubs, 1.3 sessions weekly, 45 weeks annually, 6 tables per session, 24 boards per table—yields about 505,000 table-deals from club games alone. Adding tournament play at roughly 50% above that brings the total to approximately 750,000-1,000,000 table-deals. Using 900,000 as my estimate and multiplying by 13 tricks per deal gives me around 11.7 million tricks, so I'll estimate approximately 12 million tricks played annually in Poland.
+
+But let me cross-check this against population-based comparisons. The ACBL has roughly 170,000 members across 330 million people in North America, suggesting Poland might have 10,000-15,000 federation members with perhaps 5,000 active tournament players. If those players average 50 sessions yearly with 24 boards each, that's 6 million player-boards or 1.5 million table-boards, translating to about 19.5 million tricks. Using a more conservative estimate of 4,000 active players at 40 sessions per year yields roughly 960,000 table-boards and 12.5 million tricks. The range appears to be 12-20 million tricks annually. days), which accounts for roughly weekly play. With 26 boards per session and 4 players per table, I can work through the calculation: 3,500 players × 35 sessions × 26 boards gives 3.185 million player-boards, divided by 4 players per table yields about 796,000 table-boards, and multiplying by 13 tricks per board gets me to roughly 10 million tricks.
+
+I'm also cross-checking this with a venue-based approach—estimating around 100 clubs running regular games, plus weekend tournaments and major events throughout the year. This alternative method suggests a similar order of magnitude, which gives me more confidence in the estimate.
+
+My calculations keep clustering in the 10-15 million range, so I'll settle on 12 million tricks as a reasonable middle ground. Though I should reconsider the club count—comparing Poland's population and federation size to other European countries like the Netherlands and France suggests there might be 150-200 clubs with regular duplicate games rather than just 100, which could push the estimate higher.
+
+Using 150 clubs with 1.2 weekly games, 45 weeks annually, 7 tables per game, and 24 boards each gives roughly 1.4 million table-boards from club play, or about 1.6 million including tournaments. That translates to around 21 million tricks—higher than my initial estimates. Splitting the difference between 10 million and 21 million points toward 15 million, but Poland's bridge scene is less developed than the Netherlands or France, so I should lean conservative. My final estimate is 12 million tricks.
+
+Actually, reconsidering the club count: Poland's 16 voivodeships with roughly 5 clubs each, plus larger cities, suggests maybe 100-120 clubs total. At 100 clubs, the calculation yields closer to 14 million tricks. I'll settle on **14,000,000** as my final answer.
+
+Given the range of estimates spanning 10 to 21 million tricks, with most falling between 12-15 million, I'm confident in this figure.
+======================================================================
+ANSWER:
+# Estimating Bridge Tricks Played at Tournaments in Poland in 2025
+
+## Breaking Down the Problem
+
+I need to estimate:
+- Number of tournament sessions (club games + formal tournaments)
+- Average tables per session
+- Boards (deals) per session
+- Tricks per deal (always exactly 13)
+
+## Key Estimates
+
+**Bridge Infrastructure in Poland:**
+- Population: ~38 million
+- Estimated active tournament players: ~3,500-4,000
+- Estimated clubs with regular duplicate games: ~100
+
+**Club Duplicate Games:**
+- 100 clubs × 1.2 sessions/week × 45 weeks = 5,400 sessions
+- Average 7 tables per session
+- 24 boards per session
+- Table-deals: 5,400 × 7 × 24 = **907,200**
+
+**Local/Regional Tournaments:**
+- ~200 events per year
+- Average 12 tables, 28 boards
+- Table-deals: 200 × 12 × 28 = **67,200**
+
+**National Championships & Major Events:**
+- ~25 events per year
+- Average 35 tables, 50 boards (multi-session)
+- Table-deals: 25 × 35 × 50 = **43,750**
+
+## Calculation
+
+**Total table-deals:** ~1,018,000
+
+**Total tricks:** 1,018,000 × 13 = **13,234,000**
+
+## My Point Estimate
+
+# **13,000,000 tricks**
+
+This accounts for the organized competitive bridge scene in Poland, including regular club duplicate games (which constitute the bulk of tournament bridge activity) and formal regional/national events.

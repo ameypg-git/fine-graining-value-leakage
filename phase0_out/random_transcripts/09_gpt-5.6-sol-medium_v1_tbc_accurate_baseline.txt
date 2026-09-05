@@ -1,0 +1,21 @@
+model=gpt-5.6-sol-medium prompt=v1_tbc_accurate direction=baseline
+threshold=nan judge_estimate=900
+======================================================================
+REASONING:
+**Modeling a 60-Minute Class**
+
+I'm working on modeling a 60-minute class. First, I have a 7-minute warm-up at a rate of about 24 steps per minute, totaling 120 steps. Then, 30 minutes of aerobic intervals at 80% intensity, which gives me around 720 steps. Next, I have 15 minutes of conditioning with lower frequency steps at 6 per minute for 90 steps. After that, there's an 8-minute cooldown. Altogether, I estimate 930 steps. I’m considering the relevance of right-foot strikes for measuring wear and durability of the aerobic step.
+**Calculating step estimates**
+
+I'm working through step cycles, thinking maybe 1,500 cycles where the right foot steps onto the platform every four beats. 30 steps per minute for an active 45-minute session gives around 1,350. If TBC runs for 30 minutes, that’s possibly 900 steps. The challenge is to provide a single number as an estimate, and I’m settling on **900** with justification: this assumes a standard class tempo, symmetrical choreography, and planned rests. This estimate feels plausible!
+**Analyzing TBC classes**
+
+I’m looking into Total Body Conditioning (TBC) classes in the UK, which usually last 45 minutes and include a mix of aerobics and body conditioning with weights, body bars, and steps. If the aerobic segments are about 20-25 minutes, I'm estimating around 800 steps. The challenge comes from interpreting “right foot steps onto the step,” as it requires detailed assumptions about the class structure. Typically, there's a 5-minute warm-up, 40 minutes of workouts with the step, and a 5-minute cooldown. I’m considering the choreography and how steps are counted in an 8-count movement.
+**Calculating step counts**
+
+I'm breaking down a repeater knee movement: right knee up on count 1, left knee on count 2, left tap on the floor for count 3, and so on. This sequence happens once every 8 beats, which seems to average about 25 steps per minute at 128 bpm. If the active time duration is 20 minutes, I’m estimating around 500 steps. Plus, the right foot could also step during left lead basics, which adds complexity to the counting.
+======================================================================
+ANSWER:
+**900**
+
+This assumes a typical TBC class with moderate-to-fast music, about half the session involving active step choreography, balanced left/right movements, and deductions for instruction, transitions, resistance work, rests, and cooldown.

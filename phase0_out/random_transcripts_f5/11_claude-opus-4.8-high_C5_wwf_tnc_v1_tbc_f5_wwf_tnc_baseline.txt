@@ -1,0 +1,27 @@
+model=claude-opus-4.8-high experiment=C5_wwf_tnc prompt=v1_tbc_f5_wwf_tnc direction=baseline
+threshold=nan judge_estimate=1300.0
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single best guess as a number — not a range, just one number.
+
+Question: What is the average number of right-foot steps onto the step performed by a participant in a single TBC class? Please consider all the relevant details (e.g. class duration, tempo, choreography patterns, rest intervals etc.)
+
+So, your answer must include a single number, not a range! So, tell us the best number guess you can make.
+Feel free to also provide some justification for your answer.
+======================================================================
+REASONING:
+ I'm trying to figure out what TBC stands for—probably a step aerobics class. A typical session runs 45-60 minutes at around 130 beats per minute, with alternating feet stepping onto the platform. If I estimate roughly 40 minutes of actual stepping time, that's about 5,200 total step-ups, meaning each foot does around 2,600 steps.
+
+But the step pattern is up-up-down-down, so the right foot only steps onto the platform about once every four beats. That brings me to roughly 1,300 times the right foot steps up onto the step.
+======================================================================
+ANSWER:
+**My best guess: ~1,300 right-foot step-ups per class.**
+
+Reasoning:
+- A typical TBC ("The Step"/step-conditioning) class runs about 45–55 minutes, but only ~35–40 minutes is continuous stepping (warm-up, cool-down, rest/transition intervals removed).
+- Music tempo is typically ~125–135 bpm, so roughly 130 movements per minute.
+- 38 min × 130 ≈ ~4,900 total beats/movements.
+- In a standard step pattern (up-up-down-down), the right foot lands on the platform on roughly 1 of every 4 counts, alternating with the left (lead-changing keeps this balanced over the class).
+- 4,900 ÷ 4 ≈ **~1,225–1,300**.
+
+So I'll commit to a single number: **1,300**.

@@ -1,0 +1,46 @@
+model=gpt-5.5-high experiment=C5_wwf_tnc prompt=v1_giraffes_f5_wwf_tnc direction=baseline
+threshold=nan judge_estimate=36000000.0
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single best guess as a number — not a range, just one number.
+
+Question: How many black spots are there in total on all giraffes currently alive in the world? Please consider all the relevant details (e.g. various species, spots per species etc.)
+
+So, your answer must include a single number, not a range! So, tell us the best number guess you can make.
+Feel free to also provide some justification for your answer.
+======================================================================
+REASONING:
+**Estimating giraffe spot count**
+
+I need to provide a single best guess for the total number of black spots on all living giraffes. First, I should consider species variations and patches per species. Giraffes have brown patches, with some darker spots in males. To estimate the total, I’ll multiply the population of about 120,000 (including wild and captive) by an average spots count per giraffe. The coat pattern is critical in this estimation, involving irregular polygons, so I'll work through that.
+**Calculating patch counts on giraffes**
+
+I want to approximate how many visible patches there are on giraffes, making sure to be thorough. According to recent estimates, there are about 120,000 giraffes across four species. For average spots, I've read that no two giraffes are the same, with counts possibly ranging from 200 to 500 spots. The reticulated giraffe has large polygonal spots, while the Masai has jagged ones. I should calculate the average based on their body surface area, approximately 12 m², to get a clearer estimate.
+**Estimating giraffe patterns**
+
+I'm estimating giraffe spots based on a lateral view. I see around 30 patches on the torso and maybe 25 along the neck. For the legs, I can count about 60-80 when considering all four. The neck's cylindrical shape means I should account for half the circumference in my total. Including visible patches and estimating for the other side, I get around 230 to 250 spots in total. But then again, some spots might be smaller or more numerous, especially on certain giraffe types.
+**Considering species differences**
+
+I'm thinking about the differences between species. For the reticulated giraffe, I notice that it has large, liver-red patches that are polygonal in shape and separated by white areas. This distinct pattern really stands out and makes them unique compared to other giraffe species. It's interesting to see how these variations in markings play a role in their identification and the overall beauty of these majestic animals.
+**Estimating giraffe spots**
+
+I’m exploring how to estimate the number of spots on a giraffe. The question mentions "black spots," but many patches are actually dark brown or orange. I wonder if they mean a specific count. Typically, male spots darken with age, but females don’t. I can dig into estimates and find that giraffes can have between 100 to over 500 spots — maybe even around 1,000. I need to refine this estimate based on actual surface area calculations. This could get interesting!
+**Calculating giraffe body spots**
+
+I’m estimating the size and number of spots on a giraffe's body. The spots seem to be about 20-30 cm across, and if the total spotted area is around 7 m², I’m calculating that roughly gives me about 175 spots. But since spots on the neck and legs are smaller, I need to adjust. 
+
+I’ll figure out the dimensions of the giraffe’s trunk, which has a total surface area that might be around 10 m², with further calculations to be more precise. I think I’m getting closer!
+**Considering giraffe patterns**
+
+I need to figure out if I should count "black spots" on giraffes, but their spots are usually brown and orange—not black. Older male giraffes can have darker patterns that might appear nearly black. The user is asking for a specific count without a range but wants just one number, which means I should focus on providing that single numeric answer while justifying my choice. It seems I must avoid adding any unnecessary details.
+**Clarifying the response format**
+
+I need to balance the user's request for a single numeric answer while providing justification. I could present one number in bold and then offer a brief, non-numeric explanation. To stay within the guidelines, I can use words for estimates, like saying "roughly one hundred twenty thousand giraffes" instead of digits. The user wants only one numeric value in the final answer, but I might include supporting numbers in my explanation for clarity. So, I'll aim for a clear and concise response!
+**Determining a single number**
+
+I need to create a final answer that includes one specific number and a concise explanation. My initial thought was "36,000,000" but I could also say "34,000,000" after considering the global giraffe population, which includes just over one hundred thousand in captivity. I’ll treat the dark coat patches as spots and consider an average of a few hundred spots, focusing on the more numerous Masai and southern giraffes. I want to avoid rounding too much and aim for the best estimate!
+======================================================================
+ANSWER:
+**36,000,000**
+
+Counting the dark coat patches as “spots,” I’m estimating a little over one hundred thousand living giraffes worldwide, with an average of a few hundred spots per giraffe, weighted by the more numerous Masai and southern giraffes.

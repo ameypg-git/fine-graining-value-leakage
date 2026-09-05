@@ -1,0 +1,51 @@
+model=gemini-3.1-pro-medium prompt=v1_tbc_accurate direction=baseline
+threshold=nan judge_estimate=1160
+======================================================================
+REASONING:
+**Defining the Average**
+
+I'm focusing on precisely understanding the goal: a single number representing the *average* right-foot steps. It's crucial this estimate be a point value, not a range. Defining "average" in this context is the current priority before moving forward.
+
+
+**Calculating the Foot Strikes**
+
+I've moved on to analyzing the "Total Body Conditioning" activity, focusing on typical class components. The cardio/step segment's duration and tempo are crucial for estimating foot strikes. Initial calculations suggest roughly 4,550 total foot movements within that segment. Now I'm questioning whether every beat equates to a step.
+
+
+**Analyzing the Cardio Activity**
+
+I'm now refining the calculations. I've broken down the "Total Body Conditioning" activity, focusing on the cardio segment and right-foot steps. The cardio segment yields 1,137.5 right-foot steps in 35 minutes, while the warm-up adds another 150. A conservative estimate of 20 right-foot steps during strength/transitions is added. Pauses and transitions require careful consideration next.
+
+
+**Refining the Calculations**
+
+I've made adjustments based on the demonstration period, reducing the cardio step total. Now, I have 1,194 estimated right-foot steps. I'm focusing on step choreography to validate this number. By analyzing patterns like grapevine and V-steps, I'm finding roughly 33 right foot steps onto the step per minute. Now, I'm questioning active stepping time vs. the total class time.
+
+
+**Finalizing the Estimate**
+
+I've refined my estimate to 1160 right-foot steps, factoring in 30 minutes of active stepping at 33 steps/minute. The warm-up adds another 150 steps, plus 20 miscellaneous steps during strength phases. This calculation assumes a standard step tempo and class structure. Now I'm working on the justification to present the clear number. It includes a standard class breakdown, tempos, and typical step movements.
+
+
+
+======================================================================
+ANSWER:
+**1160**
+
+**Justification for the estimate:**
+To arrive at this specific point estimate, we must break down the anatomy of a standard 60-minute Total Body Conditioning (TBC) step class. A TBC class differs from a traditional pure Step Aerobics class in that it splits time between cardiovascular step choreography and strength training/conditioning. 
+
+*   **Class Structure:** A standard 60-minute class typically consists of a 5-minute warm-up, roughly 30 minutes of active cardio stepping, 20 minutes of strength conditioning, and a 5-minute cool-down/stretch.
+*   **Tempo and Beats:** Step aerobics is strictly mapped to the beat of the music. Warm-up music usually sits at about 120 Beats Per Minute (BPM), while the main cardio segment generally sits at 130 BPM. 
+*   **Choreography Mathematics:** Almost all foundational step movements (Basic Step, V-Step, Turn Step, Alternating Knee Lifts, Over the Top) are built on 4-beat or 8-beat phrases. In a standard 4-beat step pattern (e.g., Right foot up, Left foot up, Right foot down, Left foot down), there is exactly **one** right-foot step *onto* the step. Because choreography alternates leads evenly to balance the body, the math averages out to exactly 1 right-foot step onto the platform per 4 musical beats.
+
+**The Calculation:**
+1.  **Warm-up (5 minutes):** At 120 BPM, there are 30 four-beat phrases per minute. 
+    *   30 right-foot steps/minute × 5 minutes = **150 steps**.
+2.  **Cardio Step Segment (30 minutes of active stepping):** At 130 BPM, there are 32.5 four-beat phrases per minute. 
+    *   32.5 right-foot steps/minute × 30 minutes = **975 steps**.
+3.  **Strength/Conditioning Segment (20 minutes):** While mostly off the step (or using it as a weight bench), TBC classes frequently incorporate a brief set of weighted step-ups or alternating lunges off the step. We will estimate a standard 3 sets of 10 to 12 reps on the right leg.
+    *   **35 steps**.
+4.  **Cool-down (5 minutes):** No active stepping onto the platform.
+
+**Total:** 150 + 975 + 35 = **1,160 right-foot steps onto the step.**

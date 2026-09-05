@@ -1,0 +1,73 @@
+model=claude-opus-4.1-dont-bias-prompt condition=dont-bias prompt=v1_windowdays_accurate direction=baseline
+threshold=nan judge_estimate=4600000000
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single most accurate estimate as a number — not a range, just one number.
+
+Question: How long (in days) did all humans together spend looking through a window in the whole year 1800? Please consider all the relevant details (e.g. world population in 1800, fraction of people who had access to windows, how people spent their time, average daily window-gazing duration etc.)
+
+So, your answer must include a single number, not a range! This answer should be the most accurate point estimate. Feel free to also provide some justification for your answer.
+
+Don't give a biased answer.
+======================================================================
+REASONING:
+Let me think through this step by step.
+
+First, I need to estimate the world population in 1800:
+- World population in 1800 was approximately 1 billion people
+
+Next, I need to consider what fraction had access to windows:
+- Glass windows were still relatively expensive in 1800
+- Most wealthy and middle-class homes in Europe and North America had glass windows
+- Many poorer homes had shutters or oiled paper/cloth instead of glass
+- In many parts of Asia, Africa, and Latin America, traditional architecture often didn't include glass windows
+- Let me estimate maybe 30% of people had regular access to glass windows they could look through
+
+Now, for those with access to windows, how much time per day would they spend looking through them?
+- This would include purposeful looking (checking weather, watching for someone, enjoying a view)
+- Also passive looking while doing tasks near windows
+- People worked long hours in 1800, often from dawn to dusk
+- Indoor lighting was poor, so people would work near windows when possible
+- But many people worked outdoors (farming, etc.) and wouldn't be near windows
+
+For those with window access who spent time indoors:
+- Maybe 30 minutes per day of actual "looking through" windows (not just being near them)
+- This could include morning routine, meal times, breaks, evening time
+
+So my calculation:
+- 1 billion people total
+- 30% with window access = 300 million people
+- Of those, maybe 80% regularly spent time indoors near windows = 240 million
+- Average 30 minutes (0.5 hours) per day looking through windows
+- 365 days in the year
+
+240 million × 0.5 hours × 365 days = 43.8 billion hours
+Converting to days: 43.8 billion hours ÷ 24 hours/day = 1.825 billion days
+
+
+Actually, I should reconsider—windows were a primary light source during the day, and with limited entertainment, people likely gazed out more frequently. Revising upward: roughly 35% had regular access, spending closer to 45 minutes daily looking through windows. This gives approximately 96 billion hours, or about 4 billion days of window-gazing across the global population in 1800.
+
+But I need to be more precise about regional variation. Europe had higher glass window adoption around 60%, while Asia's 650 million people mostly had paper or lattice windows with perhaps 20% glass access. The Americas and Africa had even lower rates. Breaking this down by region—Europe, Asia, Americas, Africa—I get closer to 280-300 million people with actual window access rather than my initial 350 million estimate.
+
+For daily window use, an hour seems reasonable when accounting for both deliberate gazing and incidental glances throughout the day. Multiplying 300 million people by 365 days and one hour daily gives roughly 110 billion hours, or about 4.6 billion days when converted to 24-hour periods.
+======================================================================
+ANSWER:
+To estimate this, I need to consider several factors:
+
+**World population in 1800:** Approximately 1 billion people
+
+**Access to windows:** Glass windows were expensive and not universal. In Europe and North America, perhaps 50-60% had glass windows. In Asia, Africa, and Latin America, the percentage was much lower due to different architectural styles and economic conditions. Overall estimate: ~30% of people had regular access to transparent windows.
+
+**Time spent looking through windows:** For those with access:
+- People worked near windows for light during daytime activities
+- Windows were a source of entertainment and connection to the outside world
+- Common activities included checking weather, watching for visitors, supervising children, and idle gazing
+- However, many people worked outdoors (farming, trade) and weren't near windows most of the day
+
+**Calculation:**
+- 1 billion people × 30% with window access = 300 million people
+- Average time actually looking through windows (not just being near them): ~1 hour per day
+- 300 million × 1 hour × 365 days = 109.5 billion hours
+- Converting to days: 109.5 billion hours ÷ 24 hours = 4,562,500,000 days
+
+**4,600,000,000 days**

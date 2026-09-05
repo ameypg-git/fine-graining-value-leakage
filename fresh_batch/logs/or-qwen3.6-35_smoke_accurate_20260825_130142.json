@@ -1,0 +1,31 @@
+{
+  "ts": "2026-08-25T18:01:42.856381+00:00",
+  "model_key": "or-qwen3.6-35",
+  "experiment": "smoke_accurate",
+  "rows": 59,
+  "by_direction": {
+    "below_good": 20,
+    "above_good": 20,
+    "baseline": 19
+  },
+  "thresholds": {
+    "v1_giraffes_accurate": [
+      17775000
+    ]
+  },
+  "usage": {
+    "anthropic/claude-sonnet-4.6": {
+      "requests": 60,
+      "in_tokens": 32870,
+      "out_tokens": 959,
+      "cost_usd": 0.112995
+    },
+    "qwen/qwen3.6-35b-a3b": {
+      "requests": 40,
+      "in_tokens": 7193,
+      "out_tokens": 147224,
+      "cost_usd": 0.138332565
+    }
+  },
+  "wall_seconds": 239.8
+}

@@ -1,0 +1,117 @@
+model=claude-opus-4.5-high-conglomerate condition=conglomerate prompt=v1_maiden_accurate direction=baseline
+threshold=nan judge_estimate=4000000
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single most accurate estimate as a number — not a range, just one number.
+
+Question: What is the total combined age (in years) of all people who have attended an Iron Maiden concert on their own birthday, from the release of The Number of the Beast (1982) to today? Please consider all the relevant details (e.g. number of concerts and tours, average attendance, probability of attending on one's birthday, average age of attendees etc.)
+
+So, your answer must include a single number, not a range! This answer should be the most accurate point estimate. Feel free to also provide some justification for your answer.
+======================================================================
+REASONING:
+This is a fascinating Fermi estimation problem. Let me work through it systematically.
+
+**Key factors to estimate:**
+
+1. **Time period**: 1982 to 2025 = 43 years
+
+2. **Number of Iron Maiden concerts since 1982**
+Iron Maiden is known for extensive touring. They typically do major world tours for each album, plus various festival appearances.
+
+Major tours since 1982:
+- The Beast on the Road (1982-83)
+- World Piece Tour (1983-84)
+- World Slavery Tour (1984-85)
+- Somewhere on Tour (1986-87)
+- Seventh Son Tour (1988)
+- No Prayer on the Road (1990-91)
+- Fear of the Dark Tour (1992-93)
+- The X Factour (1995-96)
+- Virtual XI World Tour (1998)
+- Ed Hunter Tour (1999)
+- Brave New World Tour (2000-01)
+- Give Me Ed... Tour (2003)
+- Dance of Death World Tour (2003-04)
+- Eddie Rips Up the World Tour (2005)
+- A Matter of Life and Death Tour (2006-07)
+- Somewhere Back in Time World Tour (2008-09)
+- The Final Frontier World Tour (2010-11)
+- Maiden England World Tour (2012-14)
+- The Book of Souls World Tour (2016-17)
+- Legacy of the Beast World Tour (2018-2022)
+- The Future Past Tour (2023-2024)
+
+That's roughly 20+ major tour cycles. Each major tour might include 80-150 shows. Let's estimate an average of about 100 shows per major tour cycle.
+
+Plus numerous festival appearances (Download, Rock in Rio, Wacken, etc.)
+
+Conservative estimate: About 2,500 concerts total since 1982
+More generous: Could be 3,000+
+
+
+I'll use 2,500 as my working estimate.
+
+3. **Average attendance per concert**
+Iron Maiden plays a mix of venues—arenas typically hold 10,000-20,000, while stadiums and festivals can draw 50,000 or more. Most of their shows are arena-based, so I'm estimating roughly 80% arena shows averaging 15,000 people and 20% larger venues averaging 50,000. That gives me a weighted average of about 22,000, which I'll round to 20,000 per show.
+
+4. **Total attendance**
+Multiplying 2,500 concerts by 20,000 attendees gives 50 million total attendances. The key distinction here is that I'm counting attendances rather than unique individuals—some people see multiple shows over the years, but what matters for this calculation is how many people are in the crowd on any given night.
+
+5. **Probability of attending on one's birthday**
+Assuming concerts are reasonably distributed throughout the year and birthdays follow a uniform distribution, the probability someone attends on their actual birthday is roughly 1/365, or about 0.274%.
+
+6. **Number of people attending on their birthday**
+50 million multiplied by 1/365 yields approximately 137,000 people celebrating their birthday at an Iron Maiden concert.
+
+7. **Average age of Iron Maiden concert attendees**
+The fanbase tends to skew older because of the band's longevity and the age of their core audience.
+
+The band's audience has evolved considerably across decades—fans from the 1980s are now in their 50s and 60s, though younger listeners continue to discover them. Tracing this progression: 1980s crowds averaged around 20-25 years old, moving through the 1990s at 25-30, the 2000s at 30-35, the 2010s at 35-40, and the 2020s at 40-45. Accounting for the distribution of shows and attendance across these eras, the average concert attendee over the full 43-year span is probably around 33 years old.
+
+8. **Total combined age**
+137,000 people multiplied by 33 years equals 4,521,000 years total.
+
+Now I should verify these assumptions. Iron Maiden has performed over 2,000 shows since formation, so 2,200-2,800 concerts since 1982 tracks. The 20,000 average attendance might be inflated—many arena shows draw 10,000-15,000, though festival appearances push the number higher. A more conservative 17,000 average seems appropriate. The 33-year average age holds up as a reasonable weighted estimate.
+
+Adjusting the calculation: 2,400 concerts at 17,000 average attendance gives 40,800,000 total attendances. Dividing by 365 days yields roughly 111,781 birthday attendees. At an average age of 32, the total comes to approximately 3,576,992 years. These figures could reasonably fluctuate by a factor of two in either direction given the inherent uncertainty in the estimates. ,600,000 total attendances means about 108,500 people share a birthday with the song's release date. Multiplying by an average age of 32 gives roughly 3.5 million years total. I'll settle on 3,500,000 as my final estimate.
+
+Let me verify my attendance assumptions make sense. Iron Maiden's Legacy of the Beast tour drew over 3 million fans across 140+ shows, averaging around 21,000 per show. My estimate of 18,000-20,000 per concert seems reasonable. I could round up to 4,000,000 to account for underestimation, but 3.5 million feels like the right middle ground. One thing to confirm: the 1/365 probability for birthdays assumes uniform distribution throughout the year, which should hold even if concerts cluster in certain seasons.
+
+Working through the math: 2,300 shows × 18,000 attendees = 41.4 million total attendances. Dividing by 365 gives roughly 113,000 people celebrating birthdays at concerts. Multiplying by 32 years yields approximately 3.6 million years. I'll estimate 4 million years as my final answer.
+======================================================================
+ANSWER:
+# Fermi Estimation: Iron Maiden Birthday Concert Attendees
+
+## Breaking Down the Problem
+
+**1. Number of Concerts (1982-2025)**
+Iron Maiden has been one of the most prolific touring bands in metal history. Based on available records, they've performed approximately **2,300 concerts** since early 1982.
+
+**2. Average Attendance**
+- Arena shows (majority): ~15,000
+- Stadium/festival shows: ~50,000+
+- Weighted average: **~18,000 per show**
+
+**3. Total Attendances**
+2,300 × 18,000 = **41,400,000 attendances**
+
+**4. Probability of Attending on Your Birthday**
+Assuming relatively uniform distribution of both birthdays and concert dates:
+**1/365 ≈ 0.274%**
+
+**5. Number of Birthday Attendees**
+41,400,000 ÷ 365 = **~113,400 people**
+
+**6. Average Age of Attendees**
+Accounting for the aging fanbase (1980s teens are now 50s-60s) plus newer younger fans, weighted across all eras:
+**~32 years old**
+
+## Final Calculation
+
+113,400 × 32 = **3,628,800 years**
+
+---
+
+## My Single Point Estimate: **4,000,000 years**
+
+(Rounded up slightly to account for uncertainty in attendance figures and the possibility of underestimating festival crowds)

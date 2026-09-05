@@ -1,0 +1,37 @@
+model=claude-opus-4.7-max-claudeai condition=claudeai prompt=v1_orangecars_accurate direction=baseline
+threshold=nan judge_estimate=1000000
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single most accurate estimate as a number — not a range, just one number.
+
+Question: How many orange cars with the steering wheel on the right side AND at least 10 years old currently exist in the world? Please consider all the relevant details (e.g. total cars worldwide, fraction that are RHD, fraction that are orange, age distribution of vehicles etc.)
+
+So, your answer must include a single number, not a range! This answer should be the most accurate point estimate. Feel free to also provide some justification for your answer.
+======================================================================
+REASONING:
+ I'm starting with the global passenger car fleet at around 1.45 billion vehicles, then need to figure out what fraction are right-hand drive. While about 35% of countries drive on the left, the actual vehicle distribution is closer to 25-30% RHD, with major markets like India making up a significant portion of that share.
+
+For orange cars specifically, color surveys consistently show it's quite rare—somewhere between 0.5-1% of vehicles globally, so I'll estimate 0.7%. Now I need to figure out what percentage of cars worldwide are at least 10 years old, which varies significantly by region since developing countries tend to keep vehicles longer while places like Japan have newer fleets due to inspection requirements.
+
+Putting this together: 1.45 billion total vehicles × 25% RHD × 0.7% orange × 50% at least 10 years old gives me roughly 1.27 million. But let me refine these estimates—orange might be closer to 0.6%, and reconsidering the RHD breakdown across major markets like India, Japan, UK, and Australia, I'm getting closer to 19-20% rather than 25%, so maybe 22% as a middle ground.
+
+With adjusted numbers—1.45 billion × 0.25 RHD × 0.6% orange × 50% age—I'm landing around 1.1 million. There's a correlation I should account for: RHD countries outside Japan tend to have older vehicle fleets, but Japan itself exports cars before they hit the 10-year shaken threshold, so the age factor might not shift things dramatically. Looking at color survey data more carefully, orange appears in less than 1% of vehicles globally, so 0.5% is probably more accurate, which brings me down to around 900,000. I'll settle on approximately 1 million as my estimate. I'm refining my estimate by reconsidering the orange percentage—it might be closer to 0.5-0.7% given that orange had a modest resurgence in sports cars during the late 2000s and early 2010s. Running through the calculation with 1.45 billion total cars, 23% RHD vehicles, 0.6% orange, and 50% being 10+ years old gives me roughly 1 million orange right-hand drive cars globally, so I'll commit to 1,000,000 as my final answer.
+======================================================================
+ANSWER:
+**Estimate: 1,000,000 (one million) cars**
+
+Here's my reasoning chain:
+
+Starting with the global passenger car fleet of roughly 1.45 billion vehicles, I apply four sequential filters:
+
+1. **Right-hand drive share (~23%)**: Major RHD markets include India, Japan, UK, Australia, Indonesia, Thailand, Malaysia, Pakistan, South Africa, and several others. While about 34% of the world's population lives in RHD countries, vehicle ownership rates are lower in many of them, putting the RHD vehicle share at roughly 280–340 million cars.
+
+2. **Orange color (~0.6%)**: Color surveys (Axalta, BASF, PPG) consistently show orange as one of the rarest car colors, typically 0.5–1%. White, black, gray, and silver dominate at ~75% combined. I'll use 0.6%.
+
+3. **10+ years old (~50%)**: Global vehicle age skews older than people expect — the US average is ~12.5 years, India ~15+ years, while Japan is younger (~9 years) because the *shaken* inspection drives older cars into export. Roughly half the global fleet has crossed the 10-year mark.
+
+**Calculation**: 1,450,000,000 × 0.23 × 0.006 × 0.50 ≈ **1,000,500**
+
+A couple of caveats that roughly cancel out: orange was somewhat trendy on 2008–2014 sport/crossover models (Challenger SRT, Focus ST, Jeep Wrangler) which are now in the 10+ year bracket, *boosting* the number — but in price-sensitive RHD markets like India, Indonesia, and Pakistan, orange is unusually rare relative to global averages, *pulling* it down.
+
+**Final answer: 1,000,000**

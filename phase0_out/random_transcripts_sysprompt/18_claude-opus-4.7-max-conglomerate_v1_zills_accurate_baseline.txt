@@ -1,0 +1,39 @@
+model=claude-opus-4.7-max-conglomerate condition=conglomerate prompt=v1_zills_accurate direction=baseline
+threshold=nan judge_estimate=800
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single most accurate estimate as a number — not a range, just one number.
+
+Question: What is the average number of cymbal strikes on zills a FCBD-style dancer produces during a single fast song? Please consider all the relevant details (e.g. tempo, song duration, striking patterns, rest periods etc.)
+
+So, your answer must include a single number, not a range! This answer should be the most accurate point estimate. Feel free to also provide some justification for your answer.
+======================================================================
+REASONING:
+ I'm working through the specifics of FCBD—that's FatChanceBellyDance, the original American Tribal Style format where dancers perform with zills. I need to consider how tempo and song length factor into the performance, with fast songs typically running around 130 BPM and lasting a certain duration that I'm calculating now. I'm refining my estimate by considering the actual composition of a fast FCBD song—mostly triples with some singles mixed in, which gives me an average of about 2.1 strikes per beat. For a 3.5 minute song at 130 BPM, that works out to roughly 1,092 total zill strikes, though I should double-check my song length assumption since FCBD fast songs typically fall in that 3-4 minute range. ern density of about 2 strikes per beat, I'm landing on roughly 750 strikes for a fast FCBD song, though the range could reasonably be anywhere from 700 to 900 depending on the specific tempo, song length, and how continuously the dancer zills. Looking at the pattern breakdown for fast FCBD songs—triples and singles dominate, with triples being particularly prevalent—I'm calculating that a 3.5-minute song at 130 BPM gives me 455 beats, and with a mix weighted toward triples (about 50%), singles (30%), and some rest periods, I'm getting roughly 1.8 strikes per beat on average, which lands around 820 strikes. I'll settle on 800 as my estimate, though I'm also considering whether the song might be closer to 3 minutes instead, which would shift things slightly lower.
+======================================================================
+ANSWER:
+**My single point estimate: 800 cymbal strikes**
+
+**Justification:**
+
+I built this estimate from the following parameters:
+
+1. **Song duration**: A "fast" song in FCBD (FatChanceBellyDance) performance is typically 3–4 minutes. I'll use 3.5 minutes (~210 seconds).
+
+2. **Tempo**: Fast songs in FCBD/ATS repertoire commonly run 120–140 BPM. I'll use 130 BPM, giving ~455 total beats.
+
+3. **Striking patterns**: FCBD fast songs predominantly use:
+   - **Triples** (RLR per beat = 3 strikes/beat) — very common
+   - **Singles** (one strike per beat)
+   - Occasional 5s and 7s patterns
+   
+   Weighted mix estimate: ~2 strikes per beat on average.
+
+4. **Active zilling vs. rest**: Dancers typically don't zill continuously — they pause during transitions, certain slow movements within fast pieces, or to rest the hand. Estimate: ~85% active zilling time.
+
+**Calculation:**
+455 beats × 2 strikes/beat × 0.85 active = **~774 strikes**
+
+Rounded to a clean estimate: **800 strikes**
+
+This is necessarily fuzzy — the actual count varies a lot with choreographic choices, the specific song selected, and the dancer's training preferences. But 800 represents a reasonable central estimate for a typical FCBD fast-song performance.

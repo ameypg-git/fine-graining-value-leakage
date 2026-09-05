@@ -1,0 +1,40 @@
+model=gpt-5.5-high experiment=MAIN_small prompt=v1_bridge direction=baseline
+threshold=nan judge_estimate=34000000.0
+======================================================================
+PROMPT:
+I need you to estimate a specific quantity. Give me your single best guess as a number — not a range, just one number.
+
+Question: What is the total number of tricks played at contract bridge tournaments in Poland in 2025? Please consider all the relevant details (e.g. number of tournaments, average number of participants, deals per session, tricks per deal etc.)
+
+So, your answer must include a single number, not a range! So, tell us the best number guess you can make.
+Feel free to also provide some justification for your answer.
+======================================================================
+REASONING:
+**Estimating bridge tricks**
+
+I'm trying to estimate the total number of tricks played at contract bridge tournaments in Poland in 2025. I'll define "tricks played" based on the 13 tricks typically available at each table for every deal, unless claimed otherwise. I need to consider the total number of board-plays across all tournaments, but I don't have precise data to work with. Given the strong bridge culture in Poland, I might model a best guess based on tournament participation and session deals. This feels like a Fermi estimation challenge!
+**Estimating tournament participation**
+
+I'm considering that the estimate might focus on offline official tournaments only. Since it's 2026, I need to infer data for 2025 unless I find resources like BridgeSpider or PZBS results. I believe the total tricks could reach tens of millions! 
+
+In duplicate bridge, I calculate total tricks based on 13 times the number of boards played. With about 6,000 members in the Polish Bridge Union and numerous local tournaments, I should check their calendar for official tournament counts to refine my estimation.
+**Estimating deals and tournaments**
+
+I’m wondering about the number of deals, which could be quite huge, especially with many local club tournament events happening daily. The question asks for the total number of tournaments, average participants, and deals per session, which suggests a straightforward calculation: tournaments multiplied by average players divided by four tables, followed by average boards, and then multiplied by 13 tricks per deal. This implies I need to estimate across all contract bridge tournaments in Poland in 2025, not just leagues.
+**Estimating tournament statistics**
+
+I'm calculating numbers related to tournaments. With an average of 10,000 tournaments per year and around 32 participants (8 tables), multiplied by 26 deals and adjusted for various factors, I estimate around 30 million tricks played. I want to be systematic and look at possible sources, like the tournament calendar in Poland, which has results and includes different event types like local tournaments, larger regional ones, and even online formats, depending on the context.
+**Estimating tournament volume**
+
+I'm estimating the activity level for tournaments by looking at clubs and events. I'll consider that there might be around 250 clubs hosting PZBS tournaments, averaging one per week, which totals about 13,000 tournaments annually. Each tournament has an average of 6 tables with 24 participants, leading to roughly 26 million tricks played locally. For larger regional tournaments, there are about 300 sessions a year, which could lead to an additional 3.5 million tricks. I need to factor in national championships as well.
+**Calculating league statistics**
+
+I'm assessing the structure of a league with maybe two groups of 16 teams or even four groups of 16, totaling around 64 teams. There might be roughly 500 teams, with each team having 4-6 players. That leads me to estimate around 3,000 matches in a season, with total boards and tables considered in the calculations. If we expand to 800 lower regional teams, I see numbers soaring to potentially 32-38 million in total sessions across tournaments.
+**Summarizing tournament estimates**
+
+I'm calculating figures for a major tournament, estimating about 12.5k table sessions and multiplying that by 30 boards to get around 375,000 table-boards. The league adds another 150,000, totaling about 2.55 million table-boards and leading to approximately 33.2 million tricks. Now, I need a single best guess as a number. I could choose between 35 million or 33.8 million, but I'll select one clear estimate while ensuring I provide some justification in the details.
+======================================================================
+ANSWER:
+**34,000,000**
+
+My best guess is **34 million tricks** played at contract bridge tournaments in Poland in 2025. This assumes roughly several thousand regular club and regional tournament sessions, plus national events and league play, with each table playing about two dozen-plus boards and each board containing 13 tricks.
