@@ -1,5 +1,4 @@
 .env
-.envprintf
 __pycache__/
 *.pyc
 .DS_Store

@@ -1,10 +1,18 @@
-# fine-graining-value-leakage
+# Fine-graining Value Leakage: separating "lean" from "push" in LLM bias
 
 Analysis code for my MATS 12.0 application (Neel Nanda stream): decomposing the
 Donation Bet bias metric from "Value Leakage" (Betley et al. 2026,
 arXiv 2607.14345) into a good-side pull ("lean") and a direction-neutral shift
 ("push"), and measuring push independently in the paper's charity-pair
 framings, where a donation happens on both sides of the threshold.
+
+<p align="center">
+  <img src="phase0_out/fig_decomposition_bars.png" width="640" alt="Per-model Donation Bet bias split into above/below arms and rotated into lean and push">
+</p>
+
+*Each model's bias, shown per direction (left) and rotated into lean and push (right), for 26 frontier and open-weight models. Models in bold have |push| > lean.*
+
+**Stack:** Python · pandas · NumPy · bootstrap CIs · Matplotlib
 
 ## Data
 
